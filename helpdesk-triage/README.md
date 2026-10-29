@@ -118,16 +118,21 @@ GROQ_MODEL=llama-3.3-70b-versatile
 
 ## 5. Running the Application and Tests
 
-### Run Automated Contract Tests
+### Run Automated Tests
 ```bash
-pytest tests/test_contracts.py -v
+# Run all tests (contracts and AI triage)
+pytest tests/ -v
+
+# Run AI Triage unit tests specifically
+pytest tests/test_triage.py -v
 ```
-All contract tests validate:
+All contract and triage tests validate:
 - Canonical Enums (`Category`, `Priority`, `ImpactScope`)
 - 21 canonical ticket fields
-- Safe fallback shapes from stubs
+- Safe fallback shapes from stubs and live modules
 - Storage persistence, ticket creation, and update mechanics
 - Safe handling of empty or missing data files
+- Groq AI triage JSON parsing, schema sanitization, prompt injection defense, and graceful API failure handling
 
 ### Launch Streamlit Dashboard
 ```bash
