@@ -1,0 +1,53 @@
+[
+  {
+    "technician_id": "TECH-001",
+    "name": "Alex Morgan",
+    "email": "alex.morgan@campus-helpdesk.example.com",
+    "team": "Field Hardware Support",
+    "skills": [
+      "Hardware",
+      "Other"
+    ],
+    "max_workload": 5,
+    "active_tickets_count": 1,
+    "status": "available"
+  },
+  {
+    "technician_id": "TECH-002",
+    "name": "Jordan Patel",
+    "email": "jordan.patel@campus-helpdesk.example.com",
+    "team": "Network Operations",
+    "skills": [
+      "Network"
+    ],
+    "max_workload": 4,
+    "active_tickets_count": 0,
+    "status": "available"
+  },
+  {
+    "technician_id": "TECH-003",
+    "name": "Taylor Reed",
+    "email": "taylor.reed@campus-helpdesk.example.com",
+    "team": "Application & Collaboration Support",
+    "skills": [
+      "Software",
+      "Email & Collaboration"
+    ],
+    "max_workload": 6,
+    "active_tickets_count": 2,
+    "status": "available"
+  },
+  {
+    "technician_id": "TECH-004",
+    "name": "Casey Kim",
+    "email": "casey.kim@campus-helpdesk.example.com",
+    "team": "Identity & Data Systems",
+    "skills": [
+      "Database",
+      "Account & Access"
+    ],
+    "max_workload": 4,
+    "active_tickets_count": 1,
+    "status": "available"
+  }
+]
